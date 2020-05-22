@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+
+    <!-- que counter section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvQueConter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="1/10"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <!-- timer section -->
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Time Left"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="12"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+
+    <!-- que section  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/tvQue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" #1 Que for quiz ?"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <!-- option section  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <!-- op1 -->
+        <Button
+            android:id="@+id/btOpt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 1"
+            android:textAlignment="textStart" />
+        <!-- op2 -->
+        <Button
+            android:id="@+id/btOpt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 2"
+            android:textAlignment="textStart" />
+
+        <!-- op3 -->
+        <Button
+            android:id="@+id/btOpt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 3"
+            android:textAlignment="textStart" />
+
+        <!--  op4-->
+        <Button
+            android:id="@+id/btOpt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 4
+"
+            android:textAlignment="textStart" />
+
+
+    </LinearLayout>
+</LinearLayout>
